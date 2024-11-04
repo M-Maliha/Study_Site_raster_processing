@@ -1,4 +1,5 @@
 **Site-Specific Raster Processing Notebook**
+
 *Overview* 
 
 This notebook is designed to process cold site rasters by resampling and reprojecting them to match an RGB raster's specifications. The notebook also includes steps to modify the data type of the original RGB raster to match that of the reprojected rasters for consistency.
