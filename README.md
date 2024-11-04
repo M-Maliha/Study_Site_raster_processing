@@ -11,6 +11,7 @@ Reprojection: Reprojects the cold site rasters to the coordinate reference syste
 Data Type Adjustment: Modifies the data type of the original RGB raster to match the data type of the reprojected rasters, facilitating consistent data handling across different raster layers.
 
 *Prerequisites*
+
 This notebook requires the following Python libraries:
 
 rasterio: For reading and writing raster data.
@@ -23,5 +24,6 @@ Resample and Reproject: Using the target RGB raster as a reference, each cold si
 Adjust Data Type: The data type of the original RGB raster is adjusted to match the data type of the reprojected cold site rasters for consistency in further analyses.
 
 *Output*
+
 Reprojected Cold Site Rasters: All processed rasters will have the same resolution and CRS as the target RGB raster.
 Updated RGB Raster: The original RGB raster will be modified to have the same data type as the reprojected rasters.
